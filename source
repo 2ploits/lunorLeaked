@@ -1,4 +1,4 @@
--- all dependencies backed up by 25ms :>
+-- all dependencies backed up by 25ms & rybowe :>
 local lib = loadstring(game:HttpGet("https://you.whimper.xyz/sources/lunor/Backup/Backend/ObfuscatedSource"))()
 local FlagsManager = loadstring(game:HttpGet("https://you.whimper.xyz/sources/lunor/Backup/Backend/ObfuscatedConfigSource"))()
 
@@ -755,7 +755,7 @@ if RoleChecker() == "Free Version" or RoleChecker() == "No Role Assigned" then
     sections.Premium:AddButton({
         Title = "Copy Discord Invite",
         Callback = function()
-            setclipboard("https://discord.gg/25ms")
+            setclipboard("https://discord.gg/25ms & rybowe")
             lib:Notification("Discord","Copied invite to clipboard, just paste it.", 5)
         end,
     })
